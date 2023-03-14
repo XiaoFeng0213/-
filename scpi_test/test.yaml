@@ -1,0 +1,763 @@
+# ---------------------------------------------天线1----------------------------------------------------
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线1, 信道1
+  CTRLBANDIDX: 0      # 0:2.4g 1:5G
+  TXMODE: 1           # 协议 0:11b，1:11g，2:11n，4:11ac，8:11ax
+  TXMCS: 7            # 速率(默认测最大) 11b:MCS0~3，11g:MCSO~7，11n:MCSO~7, 11ac:MCS0-9., 11ax:MCSO-11
+  TXBW: 0             # 带宽 0:20MHz, 1:40MHz, 2:80MHz
+  TXGI: 0             # 5G11ax:4, *:0
+  TXLEN: 1024         # 11ax:4096, *:1024
+  TXANT: 1            # 天线 (1:天线 1, 2:天线 2)
+  CHANNEL: 1          # 信道
+  powmin: 19.5
+  powmax: 20.5
+  address: '495'
+
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线1, 信道6
+  CTRLBANDIDX: 0
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 6
+  powmin: 19.5
+  powmax: 20.5
+  address: '496'
+
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线1, 信道11
+  CTRLBANDIDX: 0
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 11
+  powmin: 19
+  powmax: 22
+  address: '497'
+
+-
+  #2.4G, 11b, MCS3, 20MHZ, 天线1, 信道6
+  CTRLBANDIDX: 0
+  TXMODE: 0
+  TXMCS: 3
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 6
+  powmin: 19.5
+  powmax: 20.5
+  address: '7D4'
+
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线1, 信道1
+  CTRLBANDIDX: 0
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 1
+  powmin: 18.5
+  powmax: 21.5
+  address: '7D9'
+
+-
+  #2.4G, 11n, MCS7, 40MHZ, 天线1, 信道11
+  CTRLBANDIDX: 0
+  TXMODE: 2
+  TXMCS: 7
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 11
+  powmin: 18.0
+  powmax: 21.0
+  address: '7E8'
+
+-
+  #2.4G, 11ax, MCS11, 20MHZ, 天线1, 信道6
+  CTRLBANDIDX: 0
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 4096
+  TXANT: 1
+  CHANNEL: 6
+  powmin: 16.5
+  powmax: 19.5
+  address: '7F5'
+
+-
+  #2.4G, 11ax, MCS11, 40MHZ, 天线1, 信道3
+  CTRLBANDIDX: 0
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 4096
+  TXANT: 1
+  CHANNEL: 3
+  powmin: 16.5
+  powmax: 19.5
+  address: '7FF'
+
+-
+  #2.4G, 11ax, MCS11, 40MHZ, 天线1, 信道11
+  CTRLBANDIDX: 0
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 4096
+  TXANT: 1
+  CHANNEL: 11
+  powmin: 16.5
+  powmax: 19.5
+  address: '7FF'
+
+# ---------------------------------------------天线2----------------------------------------------------
+
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线2, 信道1
+  CTRLBANDIDX: 0
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 1
+  powmin: 19.5
+  powmax: 20.5
+  address: '498'
+
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线2, 信道6
+  CTRLBANDIDX: 0
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 6
+  powmin: 19.5
+  powmax: 20.5
+  address: '499'
+
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线2, 信道11
+  CTRLBANDIDX: 0
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 11
+  powmin: 19.5
+  powmax: 20.5
+  address: '49A'
+
+#-
+#  #2.4G, 11b, MCS3, 20MHZ, 天线2, 信道6
+#  CTRLBANDIDX: 0
+#  TXMODE: 0
+#  TXMCS: 3
+#  TXBW: 0
+#  TXGI: 0
+#  TXLEN: 1024
+#  TXANT: 2
+#  CHANNEL: 6
+#  powmin: 19
+#  powmax: 22
+#  address: '7D4'
+
+-
+  #2.4G, 11g, MCS7, 20MHZ, 天线2, 信道1
+  CTRLBANDIDX: 0
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 1
+  powmin: 18.5
+  powmax: 21.5
+  address: '7D9'
+
+-
+  #2.4G, 11n, MCS7, 40MHZ, 天线2, 信道11
+  CTRLBANDIDX: 0
+  TXMODE: 2
+  TXMCS: 7
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 11
+  powmin: 18.0
+  powmax: 21.0
+  address: '7E8'
+
+-
+  #2.4G, 11ax, MCS11, 20MHZ, 天线2, 信道6
+  CTRLBANDIDX: 0
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 4096
+  TXANT: 2
+  CHANNEL: 6
+  powmin: 16.5
+  powmax: 19.5
+  address: '7F5'
+
+-
+  #2.4G, 11ax, MCS11, 40MHZ, 天线2, 信道3
+  CTRLBANDIDX: 0
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 4096
+  TXANT: 2
+  CHANNEL: 3
+  powmin: 16.5
+  powmax: 19.5
+  address: '7FF'
+
+-
+  #2.4G, 11ax, MCS11, 40MHZ, 天线2, 信道11
+  CTRLBANDIDX: 0
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 4096
+  TXANT: 2
+  CHANNEL: 11
+  powmin: 16.5
+  powmax: 19.5
+  address: '7FF'
+
+
+# ---------------------------------------------5G天线1----------------------------------------------------
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线1， 信道36
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 36
+  powmin: 19.5
+  powmax: 20.5
+  address: '4a1'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线1， 信道52
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 52
+  powmin: 19.5
+  powmax: 20.5
+  address: '4a2'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线1， 信道64
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 64
+  powmin: 19.5
+  powmax: 20.5
+  address: '4a2'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线1， 信100
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 100
+  powmin: 19.5
+  powmax: 20.5
+  address: '4a5'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线1， 信道149
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 149
+  powmin: 19.5
+  powmax: 20.5
+  address: '4a9'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线1， 信道165
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 165
+  powmin: 19.5
+  powmax: 20.5
+  address: '4aa'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线1， 信道64
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 64
+  powmin: 19.5
+  powmax: 20.5
+  address: '822'
+
+-
+  # 5G, 11ac, MCS9, 40MHZ, 天线1， 信道38
+  CTRLBANDIDX: 1
+  TXMODE: 4
+  TXMCS: 9
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 38
+  powmin: 17.5
+  powmax: 20.5
+  address: '833'
+-
+  # 5G, 11ac, MCS9, 80MHZ, 天线1， 信道42
+  CTRLBANDIDX: 1
+  TXMODE: 4
+  TXMCS: 9
+  TXBW: 2
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 1
+  CHANNEL: 42
+  powmin: 17.5
+  powmax: 20.5
+  address: '83c'
+
+-
+  # 5G, 11ax, MCS11, 40MHZ, 天线1， 信道159
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 1
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 1
+  CHANNEL: 159
+  powmin: 16
+  powmax: 19
+  address: '851'
+
+-
+  # 5G, 11ax, MCS11, 80MHZ, 天线1， 信道155
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 2
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 1
+  CHANNEL: 155
+  powmin: 16
+  powmax: 19
+  address: '85b'
+
+-
+  # 5G, 11ax, MCS11, 160MHZ, 天线1， 信道50
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 5
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 1
+  CHANNEL: 50
+  powmin: 14.5
+  powmax: 17.5
+  address: '865'
+
+
+# ---------------------------------------------5G天线2----------------------------------------------------
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线2， 信道36
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 36
+  powmin: 19.5
+  powmax: 20.5
+  address: '4ab'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线2， 信道52
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 52
+  powmin: 19.5
+  powmax: 20.5
+  address: '4ac'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线2， 信道64
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 64
+  powmin: 19.5
+  powmax: 20.5
+  address: '4ac'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线2， 信100
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 100
+  powmin: 19.5
+  powmax: 20.5
+  address: '4af'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线2， 信道149
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 149
+  powmin: 19.5
+  powmax: 20.5
+  address: '4b3'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线2， 信道165
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 165
+  powmin: 19.5
+  powmax: 20.5
+  address: '4b4'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线2， 信道64
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 64
+  powmin: 19.5
+  powmax: 20.5
+  address: '822'
+
+-
+  # 5G, 11ac, MCS9, 40MHZ, 天线2， 信道38
+  CTRLBANDIDX: 1
+  TXMODE: 4
+  TXMCS: 9
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 38
+  powmin: 17.5
+  powmax: 20.5
+  address: '833'
+-
+  # 5G, 11ac, MCS9, 80MHZ, 天线2， 信道42
+  CTRLBANDIDX: 1
+  TXMODE: 4
+  TXMCS: 9
+  TXBW: 2
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 2
+  CHANNEL: 42
+  powmin: 17.5
+  powmax: 20.5
+  address: '83c'
+
+-
+  # 5G, 11ax, MCS11, 40MHZ, 天线2， 信道159
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 1
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 2
+  CHANNEL: 159
+  powmin: 16
+  powmax: 19
+  address: '851'
+
+-
+  # 5G, 11ax, MCS11, 80MHZ, 天线2， 信道155
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 2
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 2
+  CHANNEL: 155
+  powmin: 16
+  powmax: 19
+  address: '85b'
+
+-
+  # 5G, 11ax, MCS11, 160MHZ, 天线2， 信道50
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 5
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 2
+  CHANNEL: 50
+  powmin: 14.5
+  powmax: 17.5
+  address: '865'
+
+# ---------------------------------------------5G天线3----------------------------------------------------
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线3， 信道36
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 36
+  powmin: 19.5
+  powmax: 20.5
+  address: '4b5'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线3， 信道52
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 52
+  powmin: 19.5
+  powmax: 20.5
+  address: '4b6'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线3， 信道64
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 64
+  powmin: 19.5
+  powmax: 20.5
+  address: '4b6'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线3， 信100
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 100
+  powmin: 19.5
+  powmax: 20.5
+  address: '4b9'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线3， 信道149
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 149
+  powmin: 19.5
+  powmax: 20.5
+  address: '4bd'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线3， 信道165
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 165
+  powmin: 19.5
+  powmax: 20.5
+  address: '4be'
+
+-
+  # 5G, 11a, MCS7, 20MHZ, 天线3， 信道64
+  CTRLBANDIDX: 1
+  TXMODE: 1
+  TXMCS: 7
+  TXBW: 0
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 64
+  powmin: 19.5
+  powmax: 20.5
+  address: '822'
+
+-
+  # 5G, 11ac, MCS9, 40MHZ, 天线3， 信道38
+  CTRLBANDIDX: 1
+  TXMODE: 4
+  TXMCS: 9
+  TXBW: 1
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 38
+  powmin: 17.5
+  powmax: 20.5
+  address: '833'
+-
+  # 5G, 11ac, MCS9, 80MHZ, 天线3， 信道42
+  CTRLBANDIDX: 1
+  TXMODE: 4
+  TXMCS: 9
+  TXBW: 2
+  TXGI: 0
+  TXLEN: 1024
+  TXANT: 4
+  CHANNEL: 42
+  powmin: 17.5
+  powmax: 20.5
+  address: '83c'
+
+-
+  # 5G, 11ax, MCS11, 40MHZ, 天线3， 信道159
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 1
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 4
+  CHANNEL: 159
+  powmin: 16
+  powmax: 19
+  address: '851'
+
+-
+  # 5G, 11ax, MCS11, 80MHZ, 天线3， 信道155
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 2
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 4
+  CHANNEL: 155
+  powmin: 16
+  powmax: 19
+  address: '85b'
+
+-
+  # 5G, 11ax, MCS11, 160MHZ, 天线3， 信道50
+  CTRLBANDIDX: 1
+  TXMODE: 8
+  TXMCS: 11
+  TXBW: 5
+  TXGI: 4
+  TXLEN: 4096
+  TXANT: 4
+  CHANNEL: 50
+  powmin: 14.5
+  powmax: 17.5
+  address: '865'
+
+
+
